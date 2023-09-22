@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    max-width: 650px;
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 2%;
+}
+.profile-img{
+    max-width: 350px;
+}
+.divider-line{
+    max-width: 300px;
+}
+.sub-title{
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
