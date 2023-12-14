@@ -243,7 +243,7 @@ position: relative;
 
 .hero-image-collection {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 14%)), url("https://felipesavornin.github.io/wdd130/elegant-threads/images/slide2.jpg");
+  background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 14%)), url("https://felipesavornin.github.io/wdd130/elegant-threads/images/slide3.jpg");
 
   /* Set a specific height */
   height: 50%;
