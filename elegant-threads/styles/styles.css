@@ -104,6 +104,64 @@ main {
     margin: auto;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-bottom: 20px;
+}
+
+.card1 {
+  grid-column: 2/3;
+  align-items: center;
+}
+
+.card2 {
+  grid-column: 3/4;
+  align-items: center;
+}
+
+.card_img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-bottom: 20px;
+}
+
+.gal-col-1{
+  grid-column: 1/2;
+  align-items: center;
+}
+
+.gal-col-2{
+  grid-column: 2/3;
+  align-items: center;
+}
+
+.gal-col-3{
+  grid-column: 3/4;
+  align-items: center;
+}
+
+a.button {
+    display: block;
+    margin: 25px auto 7px auto;
+    background: #303D46;
+    color: #FFFDF5;
+    max-width: 300px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.button:hover {
+  color: #FF0000;
+}
+
 footer {
     background-color: #FFFDF5;
     border-top: 4px solid #303D46;
@@ -169,6 +227,20 @@ background-size: cover;
 position: relative;
 }
 
+.hero-image-process {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 14%)), url("https://felipesavornin.github.io/wdd130/elegant-threads/images/slide2.jpg");
+  
+  /* Set a specific height */
+  height: 50%;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
 /* Place text in the middle of the image */
 .hero-text {
 text-align: center;
@@ -186,3 +258,13 @@ color: white;
 .hero-text h1{
   font-size: 4em;
 }
+
+/** IMG Modal**/
+
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
